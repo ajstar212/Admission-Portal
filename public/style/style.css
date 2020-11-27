@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+section {
+  margin-bottom: 20px;
+}
+/*---Question input page-----*/
+.question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question .q-card {
+  margin-top: 30px;
+  width: 80%;
+}
+.question .q-card .heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.question .q-card .btn {
+  width: 100%;
+  margin-top: 20px;
+}
+.question .q-card .ques {
+  margin-top: 20px;
+}
+.option-input {
+  width: 90%;
+  padding: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
